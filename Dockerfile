@@ -1,5 +1,5 @@
 FROM ubuntu:18.04
-LABEL maintainer="Rob Haswell <me@robhaswell.co.uk>"
+LABEL maintainer="Ivan Buymov <byumov@gmail.com>"
 
 RUN apt-get -y update && \
     apt-get -y upgrade &&\
