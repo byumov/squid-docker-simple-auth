@@ -2,7 +2,7 @@
 
 A simple Dockerfile for launching an authenticated squid proxy.
 
-# Usage
+## Usage
 
 Just run container with `SQUID_USERNAME` and `SQUID_PASSWORD` env variables:
 
@@ -11,9 +11,10 @@ docker run -e SQUID_USERNAME=foo -e SQUID_PASSWORD=bar -p 3128:3128 byumov/squid
 ```
 
 And use proxy for requests:
+
 ```bash
-export http_proxy="foo:bar@127.0.0.1:3128"
-export https_proxy="foo:bar@127.0.0.1:3128"
+export http_proxy="http://foo:bar@127.0.0.1:3128"
+export https_proxy="http://foo:bar@127.0.0.1:3128"
 
 curl -v -I https://www.google.com/
 
