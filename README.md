@@ -45,3 +45,9 @@ HTTP/1.1 200 Connection established
 ### Ports
 
 * 3128
+
+## Docker Hub
+
+![Docker Pulls](https://img.shields.io/docker/pulls/byumov/http-proxy-with-auth.svg) ![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/byumov/http-proxy-with-auth.svg) ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/byumov/http-proxy-with-auth.svg)
+
+[https://hub.docker.com/r/byumov/http-proxy-with-auth](https://hub.docker.com/r/byumov/http-proxy-with-auth)
